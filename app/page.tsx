@@ -139,6 +139,9 @@ export default function Home() {
           </DeleteButton>
         </Card>
       ))}
+      <span style={{ marginLeft: "12px", fontSize: "20px", color: "#666", fontWeight:"bold" }}>
+        {filteredTasks.length} tasks in total
+      </span>
     </Container>
   );
 }
